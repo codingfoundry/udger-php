@@ -299,7 +299,7 @@ class Parser implements ParserInterface
                     $ret['user_agent']['ua_family_vendor_code'] = $r['vendor_code'];
                     $ret['user_agent']['ua_family_vendor_homepage'] = $r['vendor_homepage'];
                     $ret['user_agent']['ua_family_icon'] = $r['family_icon'];
-                    $ret['user_agent']['ua_family_info_url'] = "https://udger.com/resources/ua-list/bot-detail?bot=" . $r['family'] . "#id" . $r['botid'];
+//                     $ret['user_agent']['ua_family_info_url'] = "https://udger.com/resources/ua-list/bot-detail?bot=" . $r['family'] . "#id" . $r['botid'];
                     $ret['user_agent']['crawler_last_seen'] = $r['last_seen'];
                     $ret['user_agent']['crawler_category'] = $r['crawler_classification'];
                     $ret['user_agent']['crawler_category_code'] = $r['crawler_classification_code'];
@@ -337,7 +337,7 @@ class Parser implements ParserInterface
                             $ret['user_agent']['ua_family_vendor_homepage'] = $r['vendor_homepage'];
                             $ret['user_agent']['ua_family_icon'] = $r['icon'];
                             $ret['user_agent']['ua_family_icon_big'] = $r['icon_big'];
-                            $ret['user_agent']['ua_family_info_url'] = "https://udger.com/resources/ua-list/browser-detail?browser=" . $r['name'];
+//                             $ret['user_agent']['ua_family_info_url'] = "https://udger.com/resources/ua-list/browser-detail?browser=" . $r['name'];
                             $ret['user_agent']['ua_engine'] = $r['engine'];
                             break;
                         }
@@ -356,7 +356,7 @@ class Parser implements ParserInterface
                             $ret['user_agent']['os_homepage'] = $r['homepage'];
                             $ret['user_agent']['os_icon'] = $r['icon'];
                             $ret['user_agent']['os_icon_big'] = $r['icon_big'];
-                            $ret['user_agent']['os_info_url'] = "https://udger.com/resources/ua-list/os-detail?os=" . $r['name'];
+//                             $ret['user_agent']['os_info_url'] = "https://udger.com/resources/ua-list/os-detail?os=" . $r['name'];
                             $ret['user_agent']['os_family'] = $r['family'];
                             $ret['user_agent']['os_family_code'] = $r['family_code'];
                             $ret['user_agent']['os_family_vendor'] = $r['vendor'];
@@ -379,7 +379,7 @@ class Parser implements ParserInterface
                             $ret['user_agent']['os_homepage'] = $r['homepage'];
                             $ret['user_agent']['os_icon'] = $r['icon'];
                             $ret['user_agent']['os_icon_big'] = $r['icon_big'];
-                            $ret['user_agent']['os_info_url'] = "https://udger.com/resources/ua-list/os-detail?os=" . $r['name'];
+//                             $ret['user_agent']['os_info_url'] = "https://udger.com/resources/ua-list/os-detail?os=" . $r['name'];
                             $ret['user_agent']['os_family'] = $r['family'];
                             $ret['user_agent']['os_family_code'] = $r['family_code'];
                             $ret['user_agent']['os_family_vendor'] = $r['vendor'];
@@ -401,7 +401,7 @@ class Parser implements ParserInterface
                             $ret['user_agent']['device_class_code'] = $r['name_code'];
                             $ret['user_agent']['device_class_icon'] = $r['icon'];
                             $ret['user_agent']['device_class_icon_big'] = $r['icon_big'];
-                            $ret['user_agent']['device_class_info_url'] = "https://udger.com/resources/ua-list/device-detail?device=" . $r['name'];
+//                             $ret['user_agent']['device_class_info_url'] = "https://udger.com/resources/ua-list/device-detail?device=" . $r['name'];
                             break;
                         }
                     }
@@ -417,7 +417,7 @@ class Parser implements ParserInterface
                             $ret['user_agent']['device_class_code'] = $r['name_code'];
                             $ret['user_agent']['device_class_icon'] = $r['icon'];
                             $ret['user_agent']['device_class_icon_big'] = $r['icon_big'];
-                            $ret['user_agent']['device_class_info_url'] = "https://udger.com/resources/ua-list/device-detail?device=" . $r['name'];
+//                             $ret['user_agent']['device_class_info_url'] = "https://udger.com/resources/ua-list/device-detail?device=" . $r['name'];
                         }
                     }
 
@@ -445,7 +445,7 @@ class Parser implements ParserInterface
                                     $ret['user_agent']['device_brand_homepage']   = $rC['brand_url'];
                                     $ret['user_agent']['device_brand_icon']       = $rC['icon'];
                                     $ret['user_agent']['device_brand_icon_big']   = $rC['icon_big'];
-                                    $ret['user_agent']['device_brand_info_url']   = "https://udger.com/resources/ua-list/devices-brand-detail?brand=".$rC['brand_code'];                             
+//                                     $ret['user_agent']['device_brand_info_url']   = "https://udger.com/resources/ua-list/devices-brand-detail?brand=".$rC['brand_code'];                             
 
                                     break;
                                 }                
@@ -502,7 +502,7 @@ class Parser implements ParserInterface
                     $ret['ip_address']['crawler_family_vendor_homepage'] = $r['vendor_homepage'];
                     $ret['ip_address']['crawler_family_icon'] = $r['family_icon'];
                     if ($r['ip_classification_code'] == 'crawler') {
-                        $ret['ip_address']['crawler_family_info_url'] = "https://udger.com/resources/ua-list/bot-detail?bot=" . $r['family'] . "#id" . $r['botid'];
+//                         $ret['ip_address']['crawler_family_info_url'] = "https://udger.com/resources/ua-list/bot-detail?bot=" . $r['family'] . "#id" . $r['botid'];
                     }
                     $ret['ip_address']['crawler_last_seen'] = $r['last_seen'];
                     $ret['ip_address']['crawler_category'] = $r['crawler_classification'];
